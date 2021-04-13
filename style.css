@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Space+Mono:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    background: #ede5d8;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+#wrapper {
+    display: block;
+    padding: 5% 0;
+}
+
+#conteudo {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
+    width: 80%;
+    height: auto;
+    background: #fffdf9;
+    box-shadow: 0 0 4px rgba(75, 134, 182, 0.50);
+    -moz-box-shadow: 0 0 4px rgba(75, 134, 182, 0.50);
+    -khtml-box-shadow: 0 0 4px rgba(75, 134, 182, 0.50);
+    -webkit-box-shadow: 0 0 4px rgba(75, 134, 182, 0.50);
+}
+
+.fita {
+    float: left;
+    position: relative;
+    height: 65px;
+    width: auto;
+    left: -15px;
+    top: 30px;
+    background: #3f729b;
+    box-shadow: 4px 4px 0 rgba(41, 74, 101, 0.20);
+    -moz-box-shadow: 4px 4px 0 rgba(41, 74, 101, 0.20);
+    -khtml-box-shadow: 4px 4px 0 rgba(41, 74, 101, 0.20);
+    -webkit-box-shadow: 4px 4px 0 rgba(41, 74, 101, 0.20);
+    z-index: 100;
+}
+
+.fita h2 {
+    display: block;
+    padding: 0 20px 0 80px;
+    color: #fffdf9;
+    font-weight: normal;
+    font-size: 2.8em;
+    line-height: 68px;
+    font-family: 'Space Mono', monospace;
+    text-align: right;
+}
+
+.triangulo {
+    position: relative;
+    height: 0;
+    width: 0;
+    left: -35px;
+    top: 75px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: transparent #294a65 transparent transparent;
+    z-index: -1;
+}
+
+p {
+    padding: 80px 70px 0 70px;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: rgb(41, 74, 101);
+}
+
+a {
+    color: #3f729b;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+::selection {
+    color: #e5edf4;
+    background: #9b3f72;
+}
